@@ -3,6 +3,14 @@
 
 > 之後 maybe 會將這兩個檔案整合：）讓助教改作業可以方便點！
 
+## Note
+請在 python3 環境下使用
+
+使用前請先下載所需 packages
+```bash
+pip3 install -r requirements.txt
+```
+
 ## reranger.py
 從 [ecourse2](ecourse2.ccu.edu.tw "ecourse2") 上面下載的作業，可以將檔案整理至同一個文件夾。
 檔案命名格式：學號+姓名
