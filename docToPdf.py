@@ -17,8 +17,9 @@ print(FileList)
 for file in FileList:
     filename = str(file).split(".")[0]
     # print(filename)
-    convert(file,f"{filename}.pdf")
-
-if args.d == True:
-    for file in FileList:
-        os.remove(file)
+    try:
+        convert(file,f"{filename}.pdf")
+        if args.d == True:
+            os.remove(file)
+    except:
+        exit();
